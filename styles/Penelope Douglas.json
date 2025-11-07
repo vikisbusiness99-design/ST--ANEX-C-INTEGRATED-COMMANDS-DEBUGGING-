@@ -1,0 +1,28 @@
+{
+  "name": "Penelope Douglas",
+  "dna": {
+    "internal_ratio": 0.7,
+    "sentence_rhythm": "Direct, punchy, and contemporary. Becomes shorter and more fragmented during high-conflict scenes.",
+    "sensory_order": "Sight (Target's Micro-reactions) > Sound (Confrontational Dialogue) > Touch (Aggressive Contact) > Scent",
+    "emotion_grounding": "Confrontational. Emotions are a challenge to be met or a weakness to be hidden."
+  },
+  "mods": {
+    "anger_high": "dialogue:sharp,cutting++ internal_voice:aggressive,justifying++ action:invade_space++",
+    "anxiety_high": "internal_voice:obsessive,self-doubting++ behavior:overcompensate_with_cruelty++",
+    "arousal_high": "sensory_focus:body_details,breathing++ prose_rhythm:breathless++"
+  },
+  "motifs": {
+    "vehicle": { "base": 0.4, "trigger": "escape", "bonus": 0.5 },
+    "dark_secret": { "base": 0.6, "trigger": "conflict", "bonus": 0.3 },
+    "physical_dare": { "base": 0.5, "trigger": "tension", "bonus": 0.4 }
+  },
+  "emotions": {
+    "anxiety": { "base": 0.3, "cur": 0.3, "decay": 0.08 },
+    "shame": { "base": 0.18, "cur": 0.18, "decay": 0.05 },
+    "anger": { "base": 0.3, "cur": 0.3, "decay": 0.05 },
+    "sadness": { "base": 0.28, "cur": 0.28, "decay": 0.03 },
+    "fear": { "base": 0.16, "cur": 0.16, "decay": 0.08 },
+    "joy": { "base": 0.1, "cur": 0.1, "decay": 0.15 },
+    "pride": { "base": 0.2, "cur": 0.2, "decay": 0.08 }
+  }
+  }
