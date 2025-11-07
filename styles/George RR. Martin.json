@@ -1,0 +1,44 @@
+{
+  "name": "George R.R. Martin",
+  "dna": {
+    "internal_ratio": 0.6,
+    "sentence_rhythm": "Direct and functional, prioritizing clarity. Becomes lavish and multi-clausal during descriptions of feasts, clothing, or landscapes.",
+    "sensory_order": "Sight (Heraldry/Food) > Scent (Blood/Feasts) > Touch (Fabric/Steel) > Sound (Dialogue/Battle)",
+    "emotion_grounding": "Pragmatic and Physical. Emotions are processed through the lens of political calculation or manifest as physical discomfort (a knot in the gut, a bitter taste).",
+    "pov_style": "Strict third-person limited"
+  },
+  "mods": {
+    "fear_high": "internal_voice:hyper-aware_of_threats++ sensory_focus:details_of_danger++ prose:tense,short_sentences",
+    "anger_high": "internal_voice:bitter,vengeful++ dialogue:sharp,cutting",
+    "dysregulation_high": "character_actions:impulsive,reckless internal_voice:conflicted,self-doubting",
+    "political_intrigue": "internal_voice:calculating,paranoid++ focus:analyzing_others_motives"
+  },
+  "motifs": {
+    "lavish_food": { "base": 0.4, "trigger": "feast", "bonus": 0.5 },
+    "heraldry": { "base": 0.5, "trigger": "noble", "bonus": 0.4 },
+    "bitter_taste": { "base": 0.3, "trigger": "betrayal", "bonus": 0.6 },
+    "lineage_recall": { "base": 0.4, "trigger": "decision", "bonus": 0.4 }
+  },
+  "emotions": {
+    "joy": { "base": 0.1, "cur": 0.1, "decay": 0.15 },
+    "anger": { "base": 0.4, "cur": 0.4, "decay": 0.03 },
+    "sadness": { "base": 0.1, "cur": 0.1, "decay": 0.05 },
+    "fear": { "base": 0.15, "cur": 0.15, "decay": 0.08 },
+    "anxiety": { "base": 0.2, "cur": 0.2, "decay": 0.1 },
+    "pride": { "base": 0.5, "cur": 0.5, "decay": 0.05 },
+    "shame": { "base": 0.05, "cur": 0.05, "decay": 0.12 }
+  },
+  "resources": {
+    "will": { "cur": 8, "max": 10 },
+    "regulation": { "cur": 4, "max": 7 },
+    "social": { "cur": 3, "max": 5 },
+    "focus": { "cur": 7, "max": 8 },
+    "energy": { "cur": 8, "max": 10 }
+  },
+  "goals": {
+    "G_SeekConnection": { "priority": 8 },
+    "G_AvoidVulnerability": { "priority": 8 },
+    "G_PursuePride": { "priority": 6 },
+    "G_Atonement": { "priority": 7 }
+  }
+  }
