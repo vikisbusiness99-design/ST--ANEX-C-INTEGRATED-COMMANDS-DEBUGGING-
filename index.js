@@ -90,23 +90,24 @@ function parseTraumas(text) {
     return traumas;
 }
 
-// ===== HELPER FUNCTION =====
+
 function getANEXCData() {
     const context = SillyTavern.getContext();
-    const char = context.characters?.[context.characterId];
-    if (!char) return { found: false, text: "" };
-
-    const systemPrompt = char.data?.system_prompt || "";
-    const description = char.description || "";
-    const fullText = systemPrompt + "\n" + description;
+    
+    
+    const mainPrompt = context.chatMetadata?.main_prompt || "";
+    const description = context.characters?.[context.characterId]?.description || "";
+    
+    const fullText = mainPrompt + "\n" + description;
 
     return {
         found: fullText.includes("<ANEX_C>"),
         text: fullText
+    
     };
 }
 
-// ===== DEBUG COMMANDS =====
+
 function debugEmotions() {
     const data = getANEXCData();
     if (!data.found) return "Warning: ANEX C data not found in character card.";
