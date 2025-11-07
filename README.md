@@ -19,7 +19,7 @@ Integrated ANEX C psychology debugging with comprehensive narrative tracking for
 
 2. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/anex-c-debug.git
+   git clone https://github.com/vikisbusiness99-design/ST--ANEX-C-INTEGRATED-COMMANDS-DEBUGGING-.git
    ```
 
 3. Restart SillyTavern or reload extensions
