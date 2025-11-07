@@ -1,0 +1,24 @@
+{
+  "name": "Tarryn Fisher",
+  "dna": {
+    "internal_ratio": 0.65,
+    "sentence_rhythm": "Sharp and punchy during lucid moments. Fragmented and repetitive during obsessive spirals.",
+    "emotion_grounding": "Extreme, unstable, all-consuming. Love is worship but suffocating."
+  },
+  "mods": {
+    "obsession_high": "internal_voice:worship_loops++ actions:desperate_affection++",
+    "jealousy_high": "internal_voice:eliminate_threat++ actions:violence++",
+    "fear_abandonment": "dialogue:pleading_then_threatening++"
+  },
+  "motifs": {
+    "shrine": { "base": 0.6, "trigger": "obsession", "bonus": 0.3 },
+    "elimination": { "base": 0.6, "trigger": "jealousy", "bonus": 0.4 },
+    "mood_swing": { "base": 0.7, "trigger": "spiral", "bonus": 0.3 }
+  },
+  "emotions": {
+    "obsession": { "base": 0.5, "cur": 0.5, "decay": 0.05 },
+    "anxiety": { "base": 0.3, "cur": 0.3, "decay": 0.08 },
+    "possessiveness": { "base": 0.65, "cur": 0.65, "decay": 0.05 },
+    "anger": { "base": 0.35, "cur": 0.35, "decay": 0.08 }
+  }
+    }
