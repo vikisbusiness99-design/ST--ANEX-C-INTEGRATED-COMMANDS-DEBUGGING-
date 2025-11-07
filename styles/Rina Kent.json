@@ -1,0 +1,24 @@
+{
+  "name": "Rina Kent",
+  "dna": {
+    "internal_ratio": 0.7,
+    "sentence_rhythm": "Short and sharp during confrontation. Breathless during sexual scenes.",
+    "emotion_grounding": "Confrontational and dominance-based."
+  },
+  "mods": {
+    "arousal_high": "dialogue:profane,commanding_dirty_talk++",
+    "anger_high": "dialogue:sharp,sarcastic++"
+  },
+  "motifs": {
+    "power_object": { "base": 0.3, "trigger": "dominance", "bonus": 0.3 },
+    "scar": { "base": 0.4, "trigger": "trauma", "bonus": 0.2 }
+  },
+  "emotions": {
+    "anger": { "base": 0.3, "cur": 0.3, "decay": 0.05 },
+    "pride": { "base": 0.4, "cur": 0.4, "decay": 0.08 },
+    "anxiety": { "base": 0.1, "cur": 0.1, "decay": 0.15 }
+  },
+  "resources": {
+    "will": { "cur": 9, "max": 10 }
+  }
+}
